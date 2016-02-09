@@ -1,3 +1,4 @@
+<% provide(:title, "Contact")%>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- <title><%= yield(:title) %>| Home Page</title> -->
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,14 +19,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="center jumbotron">
-            <h1>Home Page</h1>
-            <%= link_to "Sign Up", signup_path, class: "btn btn-lg btn-primary" %>
-        </div>    
-
-        <%= link_to image_tag("rails.png", alt: "Rails Logo"), 'http://rubyonrails.org/' %>
-
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <h1>Contact</h1>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

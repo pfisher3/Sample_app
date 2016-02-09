@@ -21,4 +21,9 @@ class PagesControllerTest < ActionController::TestCase
     assert_select "title", "About | Application"
   end	
 
+  test "should get contact" do
+    get :contact
+    assert_response :success
+    assert_select "title", "Contact | Application"
+  end
 end
